@@ -35,16 +35,19 @@ console.log(noises.length - 1);
 //////////////////////////////////////////////////////////////////////
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
+// assign the noises property to new noises array
+animal['noises'] = noises;
+animal.noises.push('sing');
+console.log(animal);
 
 
 /* *******************************************************************
  * Step 4 - Review
  *
  * 1. What are the different ways you can access properties on objects?
- *
+ *  Use bracket and dot notation.
  * 2. What are the different ways of accessing elements on arrays?
- *
+ *  Use bracket notation to access indexes or various array methods to update arrays
  * *******************************************************************
  */
 
@@ -60,7 +63,15 @@ console.log(noises.length - 1);
 //////////////////////////////////////////////////////////////////////
 // Step 6 - A Collection of Animals //////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
+var animals = [];
+animals.push(animal);
+console.log(animals):
+var duck = {
+  species: 'duck';
+  name: 'Jerome',
+  noises: ['quack', 'honk', 'sneeze', 'woosh']
+};
+animals.push(duck);
 
 
 //////////////////////////////////////////////////////////////////////
