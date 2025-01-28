@@ -93,6 +93,14 @@ console.log(animals.length);
 // Step 7 - Making Friends ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 
+// choosing an array because it is better to hold a list of strings
+// create a variable named friends and assign to empty array
+var friends = [];
+
+// write a function called get random that takes animals array and returns random index input array
+function getRandom(animals){
+  // return index of the input array using Math.random
+}
 
 
 /**
