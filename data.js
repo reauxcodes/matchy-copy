@@ -65,13 +65,28 @@ console.log(animal);
 //////////////////////////////////////////////////////////////////////
 var animals = [];
 animals.push(animal);
-console.log(animals):
+console.log(animals);
 var duck = {
-  species: 'duck';
+  species: 'duck',
   name: 'Jerome',
   noises: ['quack', 'honk', 'sneeze', 'woosh']
 };
 animals.push(duck);
+console.log(animals);
+var wolf ={
+  species: 'wolf',
+  name: 'carl',
+  noises: ['pant', 'howl']
+};
+var bird = {
+  species: 'bird',
+  name: 'robin',
+  noises: ['tweek', 'squeak'] 
+};
+animals.push(wolf);
+animals.push(bird);
+console.log(animals);
+console.log(animals.length);
 
 
 //////////////////////////////////////////////////////////////////////
